@@ -1,0 +1,32 @@
+package com.cogent.controller;
+
+import java.util.Iterator;
+import java.util.Map;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestHeader;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+
+public class RealRestController {
+	
+	@RequestMapping("/hello")
+	public String hello() {
+		return "hello";
+	}
+	@PostMapping("/hello")
+	public String getHeaders(@RequestHeader Map<String,String> map, @RequestHeader("apikey") String apikey ) {
+		String str;
+		for (Iterator<String,String> iterator =  map.iterator(); iterator.hasNext();) {
+			str = (String) iterator.next();
+			
+			
+		}
+		
+		return map.toString();
+	}
+
+}

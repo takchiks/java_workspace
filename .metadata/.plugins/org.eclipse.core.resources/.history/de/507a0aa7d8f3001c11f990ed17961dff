@@ -1,0 +1,13 @@
+package com.cogent.exception;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+
+@Controller
+public class ExxceptionHandlerMapper {
+	@ExceptionHandler(value = ResourceNotFoundException.class)
+	public ResponseEntity<ErrorMapper> 
+	
+
+}

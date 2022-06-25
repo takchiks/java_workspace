@@ -1,0 +1,28 @@
+package com.cogent.core;
+
+public class CustomerDay6 {
+	private int custId;
+	private String custName;
+	public CustomerDay6() {
+		super();
+	}
+	public int getCustId() {
+		return custId;
+	}
+	public void setCustId(int custId) {
+		this.custId = custId;
+	}
+	public String getCustName() {
+		return custName;
+	}
+	public void setCustName(String custName) {
+		this.custName = custName;
+	}
+
+	@Override
+	public String toString() {
+		return  custId + 
+				" \t " + custName ;
+	}
+	
+}

@@ -1,0 +1,27 @@
+package com.cogent.controller;
+
+import org.springframework.stereotype.Controller;
+
+import com.cogent.model.Person;
+import com.cogent.service.PersonService;
+@Controller
+public class PersonController {
+	
+	private PersonService personService;
+	
+	
+	
+	public PersonController(PersonService personService) {
+		super();
+		this.personService = personService;
+	}
+
+
+
+	public void addPerson(Person person ) {
+		
+		personService.addPerson(person);
+		
+	}
+
+}

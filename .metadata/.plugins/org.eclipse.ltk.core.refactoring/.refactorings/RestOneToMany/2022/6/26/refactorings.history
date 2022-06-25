@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.cogent.repo.Employee&apos; to &apos;EmployeeRepo&apos;&#x0A;- Original project: &apos;RestOneToMany&apos;&#x0A;- Original element: &apos;com.cogent.repo.Employee&apos;&#x0A;- Renamed element: &apos;com.cogent.repo.EmployeeRepo&apos;&#x0A;- Update references to refactored element&#x0A;- Rename similarly named elements&#x0A;- Update fully qualified names in &apos;*&apos; files&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Employee&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.cogent.repo{Employee.java[Employee" matchStrategy="1" name="EmployeeRepo" patterns="*" qualified="true" references="true" similarDeclarations="true" stamp="1656077667309" textual="true" version="1.0"/>
+</session>

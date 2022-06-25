@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.example.demo&apos; to &apos;com.cogent&apos;&#x0A;- Original project: &apos;springCoreBootAmmbiguity2&apos;&#x0A;- Original element: &apos;springCoreBootAmmbiguity2/src/main/java/com.example.demo&apos;&#x0A;- Renamed element: &apos;springCoreBootAmmbiguity2/src/main/java/com.cogent&apos;&#x0A;- Update references to refactored element&#x0A;- Update fully qualified names in &apos;*&apos; files&#x0A;- Update textual occurrences in comments and strings&#x0A;- Rename subpackages of the package" description="Rename package &apos;com.example.demo&apos;" flags="589830" hierarchical="true" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.demo" name="com.cogent" patterns="*" qualified="true" references="true" stamp="1655412648067" textual="true" version="1.0"/>
+</session>

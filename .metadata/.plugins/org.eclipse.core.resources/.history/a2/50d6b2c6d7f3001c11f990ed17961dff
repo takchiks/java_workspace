@@ -1,0 +1,13 @@
+package com.cogent.exception;
+
+public class ResourceNotFoundException extends RuntimeException {
+
+	public ResourceNotFoundException() {
+		super("Resource Not Found Exception");
+		// TODO Auto-generated constructor stub
+	}
+
+	
+	
+
+}

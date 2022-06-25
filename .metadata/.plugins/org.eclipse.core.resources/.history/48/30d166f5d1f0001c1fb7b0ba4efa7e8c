@@ -1,0 +1,15 @@
+package com.cogent.model;
+
+import javax.persistence.DiscriminatorColumn;
+import javax.persistence.DiscriminatorValue;
+import javax.persistence.Entity;
+
+@Entity
+@DiscriminatorValue(value = "EX")
+public class ExStudent extends Student {
+	
+	private String cemail;
+	private String company;
+	
+
+}

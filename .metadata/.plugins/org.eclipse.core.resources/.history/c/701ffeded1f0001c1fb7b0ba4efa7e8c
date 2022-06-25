@@ -1,0 +1,37 @@
+package com.cogent.model;
+
+import javax.persistence.DiscriminatorColumn;
+import javax.persistence.DiscriminatorValue;
+import javax.persistence.Entity;
+
+@Entity
+@DiscriminatorValue(value = "EX")
+public class ExStudent extends Student {
+	
+	private String timing;
+	private String course;
+	public ExStudent(int sid, String sname, String semail, String timing, String course) {
+		super(sid, sname, semail);
+		this.timing = timing;
+		this.course = course;
+	}
+	public ExStudent() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public String getTiming() {
+		return timing;
+	}
+	public void setTiming(String timing) {
+		this.timing = timing;
+	}
+	public String getCourse() {
+		return course;
+	}
+	public void setCourse(String course) {
+		this.course = course;
+	}
+	
+	
+
+}

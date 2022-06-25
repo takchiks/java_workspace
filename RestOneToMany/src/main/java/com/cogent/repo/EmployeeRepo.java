@@ -1,0 +1,12 @@
+package com.cogent.repo;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.cogent.model.Company;
+
+public interface EmployeeRepo extends JpaRepository<Company, Integer> {
+	public List<Company> findByCompanyProduct(String companyProduct);
+
+}

@@ -1,0 +1,44 @@
+package com.arraylist.arr;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.ListIterator;
+
+public class Management118 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<Laptop> laptops = new ArrayList<Laptop>();
+
+		laptops.add(new Laptop(19, "vostro", "VOSTRO1234", 12323, 900));
+		laptops.add(new Laptop(10, "DELL", "LATTITUDE1234", 12323, 900));
+		laptops.add(new Laptop(12, "HP", "HP1234", 12323, 900));
+		laptops.add(new Laptop(14, "APPLE", "APPLE1234", 12323, 900));
+
+		// find laptops
+		Iterator<Laptop> it = laptops.iterator();
+
+		while (it.hasNext()) {
+			Laptop lap = new Laptop();
+			if ((lap = it.next()).getlModel().equals("VOSTRO1234")) {
+				System.out.println(lap);
+			}
+		}
+		System.out.println(laptops);
+
+		ListIterator<Laptop> nit = laptops.listIterator();
+		
+		while (nit.hasNext()) {
+			Laptop lap = it.next();
+			System.out.println(lap);
+			if (lap.getlModel().equals("HP1234")) {
+				laptops.remove(laptops.indexOf(lap));
+				;
+			}
+		}
+
+		System.out.println(laptops);
+
+	}
+
+}

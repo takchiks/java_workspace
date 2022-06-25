@@ -1,0 +1,17 @@
+package com.cogent.mock;
+
+public class ValidUsername {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(validateUsername("tttttttt_job"));
+
+	}
+	public static boolean validateUsername(String str) {
+		if(str.length()<12) {
+			return false;
+		}
+		return str.endsWith("_job");
+	}
+
+}

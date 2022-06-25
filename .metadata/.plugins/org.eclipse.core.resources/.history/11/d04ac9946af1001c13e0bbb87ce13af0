@@ -1,0 +1,18 @@
+package com.cogent.controller;
+
+import org.springframework.stereotype.Controller;
+
+import com.cogent.model.Address;
+import com.cogent.model.Employee;
+@Controller
+public class EmployeeController {
+	
+	
+	public void addEmployee() {
+		Employee employee = new Employee("taku", "ta@gmail", 900);
+		Address address = new Address(1234, 01234209, "Murehwa", "South Africa");
+		employee.setAddress(address);
+		
+	}
+
+}

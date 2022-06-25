@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author taku
+ *
+ */
+module Demon {
+}

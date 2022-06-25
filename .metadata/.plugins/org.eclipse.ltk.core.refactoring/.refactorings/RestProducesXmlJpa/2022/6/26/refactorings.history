@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.cogent.exception.ExceptionHandler.java&apos; to &apos;ExceptionHandlerMapper.java&apos;&#x0A;- Original project: &apos;RestOneToManyJpa&apos;&#x0A;- Original element: &apos;com.cogent.exception.ExceptionHandler.java&apos;&#x0A;- Renamed element: &apos;com.cogent.exception.ExceptionHandlerMapper.java&apos;" description="Rename compilation unit &apos;ExceptionHandler.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.cogent.exception{ExceptionHandler.java" name="ExceptionHandlerMapper.java" references="false" stamp="1656096141024" version="1.0"/>
+</session>

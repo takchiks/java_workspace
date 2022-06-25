@@ -1,0 +1,10 @@
+package com.cogent.controller;
+
+import com.cogent.model.Employee;
+
+public class EmployeeController {
+	public void addEmployee() {
+		Employee employee = new Employee("taku", "ta@gmail", 900)
+	}
+
+}

@@ -1,0 +1,53 @@
+package com.arraylist.arr;
+
+public class Laptop {
+	private int lId;
+	private String lBrand;
+	private String lModel;
+	private long ram;
+	private long Hdd;
+	
+	public Laptop() {
+		super();
+	}
+	public Laptop(int lId, String lBrand, String lModel, long ram, long hdd) {
+		super();
+		this.lId = lId;
+		this.lBrand = lBrand;
+		this.lModel = lModel;
+		this.ram = ram;
+		Hdd = hdd;
+	}
+	public int getlId() {
+		return lId;
+	}
+	public void setlId(int lId) {
+		this.lId = lId;
+	}
+	public String getlBrand() {
+		return lBrand;
+	}
+	public void setlBrand(String lBrand) {
+		this.lBrand = lBrand;
+	}
+	public String getlModel() {
+		return lModel;
+	}
+	public void setlModel(String lModel) {
+		this.lModel = lModel;
+	}
+	public long getRam() {
+		return ram;
+	}
+	public void setRam(long ram) {
+		this.ram = ram;
+	}
+	public long getHdd() {
+		return Hdd;
+	}
+	public void setHdd(long hdd) {
+		Hdd = hdd;
+	}
+	
+	
+}

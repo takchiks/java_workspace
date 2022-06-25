@@ -1,0 +1,26 @@
+package com.cogent.core;
+
+import java.util.Scanner;
+
+public class TestCustomerDay6 {
+	public static void main(String... args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter no. of Customers to be added");
+		int num = sc.nextInt();
+		CustomerDay6 [] customer = new CustomerDay6[num];
+		for(int i = 0; i<num;i++) {
+			CustomerDay6 curr = new CustomerDay6();
+			System.out.println("Please enter Customer Id");
+			curr.setCustId(sc.nextInt());
+			System.out.println("Please enter Customer Name");
+			curr.setCustName(sc.next());
+			customer[i]=curr;
+		}
+		System.out.println("cid \t cname ");
+		for(CustomerDay6 res:customer) {
+			System.out.println(res);
+		}
+		
+		
+
+}

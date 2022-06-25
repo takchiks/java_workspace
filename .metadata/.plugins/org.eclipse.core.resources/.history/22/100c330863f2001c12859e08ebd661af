@@ -1,0 +1,26 @@
+package com.cogent.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@Controller
+public class RestCons {
+	@RequestMapping("/hey")
+	@ResponseBody
+	public int[] getMe(@RequestParam(name="user",required = false) String name) {
+		int arr[] = {1,2,3,4};
+		return arr;
+	}
+
+	@RequestMapping("/hi")
+	@ResponseBody
+	public String msgType(@RequestParam(name="msgType",required = false) String msgType) {
+		if(msgType!=null && msgType.trim().equalsIgnoreCase("morning")) {
+			
+		}
+		return arr;
+	}
+
+}

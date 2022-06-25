@@ -1,0 +1,5 @@
+package com.cogent.model;
+@Entity
+public class Employee {
+
+}

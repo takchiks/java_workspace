@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.cogent.springconfig.Hello&apos; to &apos;Animal&apos;&#x0A;- Original project: &apos;SpringCoreComponent2&apos;&#x0A;- Original element: &apos;com.cogent.springconfig.Hello&apos;&#x0A;- Renamed element: &apos;com.cogent.springconfig.Animal&apos;&#x0A;- Update references to refactored element&#x0A;- Rename similarly named elements&#x0A;- Update fully qualified names in &apos;*&apos; files&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Hello&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.cogent.springconfig{Hello.java[Hello" matchStrategy="1" name="Animal" patterns="*" qualified="true" references="true" similarDeclarations="true" stamp="1655323765536" textual="true" version="1.0"/>
+</session>

@@ -1,0 +1,29 @@
+package com.cogent.service;
+
+import org.springframework.stereotype.Service;
+
+import com.cogent.model.Person;
+import com.cogent.repo.PersonRepo;
+@Service
+public class PersonServiceImpl implements PersonService {
+	private PersonRepo personRepo;
+	public PersonServiceImpl(PersonRepo personRepo) {
+		// TODO Auto-generated constructor stub
+		this.personRepo=personRepo;
+	}
+	@Override
+	public void addPerson(Person person) {
+		// TODO Auto-generated method stub
+		personRepo.save(person);
+		
+
+	}
+
+	public Person getPerson() {
+		return personRepo.getById(1);
+	}
+	public Person getPerson() {
+		return personRepo.getById(1);
+	}
+
+}

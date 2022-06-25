@@ -1,0 +1,5 @@
+package com.cogent.model;
+
+public class Vehicle {
+
+}

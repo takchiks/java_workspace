@@ -1,0 +1,9 @@
+package com.cogent.repo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.cogent.model.Company;
+
+public interface EmployeeRepo extends JpaRepository<Company, Integer> {
+
+}

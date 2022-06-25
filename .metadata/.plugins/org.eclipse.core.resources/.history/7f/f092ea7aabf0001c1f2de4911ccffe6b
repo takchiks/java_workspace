@@ -1,0 +1,20 @@
+package com.cogent.service;
+
+import com.cogent.model.Person;
+import com.cogent.repo.PersonRepo;
+
+public class PersonServiceImpl implements PersonService {
+	private PersonRepo personRepo;
+	public PersonServiceImpl(PersonRepo personRepo) {
+		// TODO Auto-generated constructor stub
+		this.personRepo=personRepo;
+	}
+	@Override
+	public void addPerson(Person person) {
+		// TODO Auto-generated method stub
+		personRepo.save(person);
+		
+
+	}
+
+}
