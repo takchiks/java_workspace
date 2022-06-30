@@ -1,8 +1,0 @@
-package com.cogent.service;
-
-import com.cogent.model.Person;
-
-public interface PersonService {
-	public void addPerson(Person person);
-
-}

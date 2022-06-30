@@ -1,6 +1,0 @@
-package com.cogent.controller;
-
-public interface StudentService {
-	public void addStudent();
-
-}
