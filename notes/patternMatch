@@ -1,0 +1,26 @@
+class Match12
+{
+	boolean matchMethod(String s)
+	{
+		Pattern p=Pattern.compile("[A-Za-z0-9]{8}_job");
+		Matcher m=p.matcher(s);
+		boolean b=m.matches();
+		return b;
+	}
+}
+public class P12 {
+public static void main(String[] args) {
+		
+		Match12 m1=new Match12();
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter username: ");
+		String s=sc.next();
+		boolean b=m1.matchMethod(s);
+		
+		if(b)
+			System.out.println("Username valid");
+		else
+			System.out.println("Username invalid");
+	}
+}

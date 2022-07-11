@@ -1,0 +1,29 @@
+class StringConsonant{
+	String stringConstant(String s)
+	{	
+		StringBuffer sn = new StringBuffer();
+		for(int i=0;i<s.length();i++)
+		{
+			char c=s.charAt(i);
+			if(c=='a' || c=='e' || c=='i' || c=='o' || c=='u' || c==' ' || c=='.')
+			{
+				sn.append(c);
+			}
+			else {
+				c++;
+				sn.append(c);
+			}
+		}
+		return sn.toString();
+	}
+}
+public class P7 {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter string: ");
+		String s=sc.nextLine();
+		StringConsonant s1=new StringConsonant();
+		String s2=s1.stringConstant(s);
+		System.out.println(s2);
+	}
+}
